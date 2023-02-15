@@ -1,0 +1,359 @@
+.login-page{
+    display: flex;
+    background-image: url(./back.avif);
+   height: 750px;
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 300px;
+}
+.login-image{
+    margin: 100px 0 0 0px;
+width: 500px;
+height: 550px;
+background: url(./image.avif);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 25px 0 0 25px;
+}
+.login-detials{
+     margin: 100px 0 0 0px;
+width: 450px;
+height: 550px;
+background-color: white;
+border-radius: 0 25px 25px 0;
+}
+h1{
+    text-align: center;
+}
+.label{
+    margin: 20px 0 0 50px;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0 0 50px;
+    border-radius: 5px;
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 20px 0 0 150px;
+ background-color: blue;
+ border-radius: 20px;
+ font-size: large;
+
+}
+button:hover{
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.check{
+    margin-left: 150px;
+}
+.rember{
+    display: flex;
+    
+}
+.remb{
+    margin-top: 8px;
+}
+.not{
+    text-align: center;
+}
+span{
+    color: blue;
+}
+.forget{
+    padding-left: 30px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    color: white;
+width: 100px;
+height: 850px;
+margin: 0 0 0 50px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 0px 0px 0px 25px;
+background-color: rgb(66, 66, 188);
+}
+.writemode{
+    writing-mode: vertical-lr;
+    margin-left: 35px;
+    margin-top: 80px;
+
+}
+.writemode1{
+    writing-mode: vertical-lr;
+    margin-top: 100px;
+    margin-left: 35px;
+
+
+}
+.writemode2{
+    writing-mode: vertical-lr;
+    margin-top: 200px;
+    margin-left: 35px;
+
+
+}
+.writemode3{
+    writing-mode: vertical-lr;
+    margin-top: 200px;
+    margin-left: 35px;
+
+
+}
+
+
+.box2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 1330px;
+    height: 850px;
+   border-radius: 0px 0px 25px 0;
+    
+}
+.main{
+    display: flex;
+}
+.first{
+    margin-top: 50px;
+}
+.activity{
+    width: 700px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 250px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.activity-txt{
+    background-color: aliceblue;
+    width: 150px;
+    height: 25px;
+    border-radius: 25px;
+}
+.sample{
+    width: 700px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.sample-txt{
+    background-color: aliceblue;
+    width: 150px;
+    height: 25px;
+    border-radius: 25px;
+}
+.walking{
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.walking-aid{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.well{
+    width: 98%;
+    height: 30px;
+    border-radius: 25px;
+   margin-left: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.wellbeign{
+    background-color: aliceblue;
+    width:80px;
+    height: 25px;
+    border-radius: 25px;
+}
+.structure{
+    width: 850px;
+    height: 30px;
+    border-radius: 25px;
+   margin-left: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.structure-txt{
+    background-color: aliceblue;
+    width:300px;
+    height: 25px;
+    border-radius: 25px;
+}
+.hip{
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.hip-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.gluco{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.gluco-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.surface{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 600px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.surface-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.stem{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 600px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.stem-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.fai{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 270px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.fai-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.labral{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.labral-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.osteo{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.osteo-txt{
+    background-color: aliceblue;
+    width:210px;
+    height: 25px;
+    border-radius: 25px;
+}
+.alternative{
+    width: 98%;
+    height: 30px;
+    border-radius: 25px;
+   margin-left: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+
+}
+.alternative-txt{
+    background-color: aliceblue;
+    width:150px;
+    height: 25px;
+    border-radius: 25px;
+}
+.observation{
+    width: 98%;
+    height: 30px;
+    border-radius: 25px;
+   margin-left: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to right ,rgb(29, 207, 29),rgb(255, 157, 0), rgb(104, 40, 4));
+}
+.observation-txt{
+    background-color: aliceblue;
+    width:250px;
+    height: 25px;
+    border-radius: 25px;
+}
+@media screen and (min-width: 1480px) {
+   
+   .login-image{
+    padding: 10px;
+   } 
+  }
